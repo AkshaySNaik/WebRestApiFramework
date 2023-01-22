@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="20" total="71" passed="50" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-22T23:32:10 IST" name="RestApi" finished-at="2023-01-22T23:33:15 IST" duration-ms="64852">
+    <groups>
+    </groups>
+    <test started-at="2023-01-22T23:32:10 IST" name="Datatest" finished-at="2023-01-22T23:33:15 IST" duration-ms="64852">
+      <class name="com.webrestapi.testcase.TC006_GETpendTest">
+        <test-method signature="GETPendingTest()[pri:1, instance:com.webrestapi.testcase.TC006_GETpendTest@576f63f6]" started-at="2023-01-22T23:32:55 IST" name="GETPendingTest" finished-at="2023-01-22T23:33:01 IST" duration-ms="6612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GETPendingTest -->
+        <test-method signature="checkResponseBody()[pri:2, instance:com.webrestapi.testcase.TC006_GETpendTest@576f63f6]" started-at="2023-01-22T23:33:01 IST" name="checkResponseBody" finished-at="2023-01-22T23:33:01 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:3, instance:com.webrestapi.testcase.TC006_GETpendTest@576f63f6]" started-at="2023-01-22T23:33:01 IST" name="checkStatusCode" finished-at="2023-01-22T23:33:01 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseTime()[pri:4, instance:com.webrestapi.testcase.TC006_GETpendTest@576f63f6]" started-at="2023-01-22T23:33:01 IST" name="checkResponseTime" finished-at="2023-01-22T23:33:01 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusLine()[pri:5, instance:com.webrestapi.testcase.TC006_GETpendTest@576f63f6]" started-at="2023-01-22T23:33:01 IST" name="checkStatusLine" finished-at="2023-01-22T23:33:01 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkContentType()[pri:6, instance:com.webrestapi.testcase.TC006_GETpendTest@576f63f6]" started-at="2023-01-22T23:33:01 IST" name="checkContentType" finished-at="2023-01-22T23:33:01 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServer()[pri:7, instance:com.webrestapi.testcase.TC006_GETpendTest@576f63f6]" started-at="2023-01-22T23:33:01 IST" name="checkServer" finished-at="2023-01-22T23:33:01 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+      </class> <!-- com.webrestapi.testcase.TC006_GETpendTest -->
+      <class name="com.webrestapi.testcase.TC002_GETdetailsTest">
+        <test-method signature="GETDetailsTest(java.lang.String)[pri:1, instance:com.webrestapi.testcase.TC002_GETdetailsTest@2a640157]" started-at="2023-01-22T23:32:27 IST" name="GETDetailsTest" data-provider="data" finished-at="2023-01-22T23:32:34 IST" duration-ms="6790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123,Ravi,ravi@gmail.com,12345,9876543213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GETDetailsTest -->
+        <test-method signature="checkStatusCode()[pri:3, instance:com.webrestapi.testcase.TC002_GETdetailsTest@2a640157]" started-at="2023-01-22T23:32:34 IST" name="checkStatusCode" finished-at="2023-01-22T23:32:34 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseTime()[pri:4, instance:com.webrestapi.testcase.TC002_GETdetailsTest@2a640157]" started-at="2023-01-22T23:32:34 IST" name="checkResponseTime" finished-at="2023-01-22T23:32:34 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusLine()[pri:5, instance:com.webrestapi.testcase.TC002_GETdetailsTest@2a640157]" started-at="2023-01-22T23:32:34 IST" name="checkStatusLine" finished-at="2023-01-22T23:32:34 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkContentType()[pri:6, instance:com.webrestapi.testcase.TC002_GETdetailsTest@2a640157]" started-at="2023-01-22T23:32:34 IST" name="checkContentType" finished-at="2023-01-22T23:32:34 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServer()[pri:7, instance:com.webrestapi.testcase.TC002_GETdetailsTest@2a640157]" started-at="2023-01-22T23:32:34 IST" name="checkServer" finished-at="2023-01-22T23:32:34 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+      </class> <!-- com.webrestapi.testcase.TC002_GETdetailsTest -->
+      <class name="com.webrestapi.testcase.TC008_GETsoldTest">
+        <test-method signature="GETSoldTest()[pri:1, instance:com.webrestapi.testcase.TC008_GETsoldTest@f80945f]" started-at="2023-01-22T23:33:08 IST" name="GETSoldTest" finished-at="2023-01-22T23:33:15 IST" duration-ms="6748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GETSoldTest -->
+        <test-method signature="checkResponseBody()[pri:2, instance:com.webrestapi.testcase.TC008_GETsoldTest@f80945f]" started-at="2023-01-22T23:33:15 IST" name="checkResponseBody" finished-at="2023-01-22T23:33:15 IST" duration-ms="98" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.webrestapi.testcase.TC008_GETsoldTest.checkResponseBody(TC008_GETsoldTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:3, instance:com.webrestapi.testcase.TC008_GETsoldTest@f80945f]" started-at="2023-01-22T23:33:15 IST" name="checkStatusCode" finished-at="2023-01-22T23:33:15 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseTime()[pri:4, instance:com.webrestapi.testcase.TC008_GETsoldTest@f80945f]" started-at="2023-01-22T23:33:15 IST" name="checkResponseTime" finished-at="2023-01-22T23:33:15 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusLine()[pri:5, instance:com.webrestapi.testcase.TC008_GETsoldTest@f80945f]" started-at="2023-01-22T23:33:15 IST" name="checkStatusLine" finished-at="2023-01-22T23:33:15 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkContentType()[pri:6, instance:com.webrestapi.testcase.TC008_GETsoldTest@f80945f]" started-at="2023-01-22T23:33:15 IST" name="checkContentType" finished-at="2023-01-22T23:33:15 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServer()[pri:7, instance:com.webrestapi.testcase.TC008_GETsoldTest@f80945f]" started-at="2023-01-22T23:33:15 IST" name="checkServer" finished-at="2023-01-22T23:33:15 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+      </class> <!-- com.webrestapi.testcase.TC008_GETsoldTest -->
+      <class name="com.webrestapi.testcase.TC004_DELETEdetailsTest">
+        <test-method signature="DELETEDetailsTest(java.lang.String)[pri:1, instance:com.webrestapi.testcase.TC004_DELETEdetailsTest@584f54e6]" started-at="2023-01-22T23:32:41 IST" name="DELETEDetailsTest" data-provider="data" finished-at="2023-01-22T23:32:47 IST" duration-ms="6799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123,Ravi,Akshay,ravi@gmail.com,12345,9785634210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETEDetailsTest -->
+        <test-method signature="checkStatusCode()[pri:3, instance:com.webrestapi.testcase.TC004_DELETEdetailsTest@584f54e6]" started-at="2023-01-22T23:32:48 IST" name="checkStatusCode" finished-at="2023-01-22T23:32:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseTime()[pri:4, instance:com.webrestapi.testcase.TC004_DELETEdetailsTest@584f54e6]" started-at="2023-01-22T23:32:48 IST" name="checkResponseTime" finished-at="2023-01-22T23:32:48 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusLine()[pri:5, instance:com.webrestapi.testcase.TC004_DELETEdetailsTest@584f54e6]" started-at="2023-01-22T23:32:48 IST" name="checkStatusLine" finished-at="2023-01-22T23:32:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkContentType()[pri:6, instance:com.webrestapi.testcase.TC004_DELETEdetailsTest@584f54e6]" started-at="2023-01-22T23:32:48 IST" name="checkContentType" finished-at="2023-01-22T23:32:48 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServer()[pri:7, instance:com.webrestapi.testcase.TC004_DELETEdetailsTest@584f54e6]" started-at="2023-01-22T23:32:48 IST" name="checkServer" finished-at="2023-01-22T23:32:48 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+      </class> <!-- com.webrestapi.testcase.TC004_DELETEdetailsTest -->
+      <class name="com.webrestapi.testcase.TC007_GETavailTest">
+        <test-method signature="GETAvailableTest()[pri:1, instance:com.webrestapi.testcase.TC007_GETavailTest@2dca0d64]" started-at="2023-01-22T23:33:01 IST" name="GETAvailableTest" finished-at="2023-01-22T23:33:08 IST" duration-ms="6997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GETAvailableTest -->
+        <test-method signature="checkResponseBody()[pri:2, instance:com.webrestapi.testcase.TC007_GETavailTest@2dca0d64]" started-at="2023-01-22T23:33:08 IST" name="checkResponseBody" finished-at="2023-01-22T23:33:08 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:3, instance:com.webrestapi.testcase.TC007_GETavailTest@2dca0d64]" started-at="2023-01-22T23:33:08 IST" name="checkStatusCode" finished-at="2023-01-22T23:33:08 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseTime()[pri:4, instance:com.webrestapi.testcase.TC007_GETavailTest@2dca0d64]" started-at="2023-01-22T23:33:08 IST" name="checkResponseTime" finished-at="2023-01-22T23:33:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusLine()[pri:5, instance:com.webrestapi.testcase.TC007_GETavailTest@2dca0d64]" started-at="2023-01-22T23:33:08 IST" name="checkStatusLine" finished-at="2023-01-22T23:33:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkContentType()[pri:6, instance:com.webrestapi.testcase.TC007_GETavailTest@2dca0d64]" started-at="2023-01-22T23:33:08 IST" name="checkContentType" finished-at="2023-01-22T23:33:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServer()[pri:7, instance:com.webrestapi.testcase.TC007_GETavailTest@2dca0d64]" started-at="2023-01-22T23:33:08 IST" name="checkServer" finished-at="2023-01-22T23:33:08 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+      </class> <!-- com.webrestapi.testcase.TC007_GETavailTest -->
+      <class name="com.webrestapi.testcase.TC003_PUTdetailsTest">
+        <test-method signature="PUTDetailsTest(java.lang.String)[pri:1, instance:com.webrestapi.testcase.TC003_PUTdetailsTest@52851b44]" started-at="2023-01-22T23:32:34 IST" name="PUTDetailsTest" data-provider="data" finished-at="2023-01-22T23:32:41 IST" duration-ms="6738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123,Ravi,Akshay,ravi@gmail.com,12345,9785634210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PUTDetailsTest -->
+        <test-method signature="checkStatusCode()[pri:3, instance:com.webrestapi.testcase.TC003_PUTdetailsTest@52851b44]" started-at="2023-01-22T23:32:41 IST" name="checkStatusCode" finished-at="2023-01-22T23:32:41 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseTime()[pri:4, instance:com.webrestapi.testcase.TC003_PUTdetailsTest@52851b44]" started-at="2023-01-22T23:32:41 IST" name="checkResponseTime" finished-at="2023-01-22T23:32:41 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusLine()[pri:5, instance:com.webrestapi.testcase.TC003_PUTdetailsTest@52851b44]" started-at="2023-01-22T23:32:41 IST" name="checkStatusLine" finished-at="2023-01-22T23:32:41 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkContentType()[pri:6, instance:com.webrestapi.testcase.TC003_PUTdetailsTest@52851b44]" started-at="2023-01-22T23:32:41 IST" name="checkContentType" finished-at="2023-01-22T23:32:41 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServer()[pri:7, instance:com.webrestapi.testcase.TC003_PUTdetailsTest@52851b44]" started-at="2023-01-22T23:32:41 IST" name="checkServer" finished-at="2023-01-22T23:32:41 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+      </class> <!-- com.webrestapi.testcase.TC003_PUTdetailsTest -->
+      <class name="com.webrestapi.testcase.TC001_POSTnewdetailsTest">
+        <test-method signature="POSTDetailsTest(java.lang.String)[pri:1, instance:com.webrestapi.testcase.TC001_POSTnewdetailsTest@436bc36]" started-at="2023-01-22T23:32:12 IST" name="POSTDetailsTest" data-provider="data" finished-at="2023-01-22T23:32:27 IST" duration-ms="14921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123,Ravi,ravi@gmail.com,12345,9876543213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POSTDetailsTest -->
+        <test-method signature="checkStatusCode()[pri:3, instance:com.webrestapi.testcase.TC001_POSTnewdetailsTest@436bc36]" started-at="2023-01-22T23:32:27 IST" name="checkStatusCode" finished-at="2023-01-22T23:32:27 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseTime()[pri:4, instance:com.webrestapi.testcase.TC001_POSTnewdetailsTest@436bc36]" started-at="2023-01-22T23:32:27 IST" name="checkResponseTime" finished-at="2023-01-22T23:32:27 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusLine()[pri:5, instance:com.webrestapi.testcase.TC001_POSTnewdetailsTest@436bc36]" started-at="2023-01-22T23:32:27 IST" name="checkStatusLine" finished-at="2023-01-22T23:32:27 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkContentType()[pri:6, instance:com.webrestapi.testcase.TC001_POSTnewdetailsTest@436bc36]" started-at="2023-01-22T23:32:27 IST" name="checkContentType" finished-at="2023-01-22T23:32:27 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServer()[pri:7, instance:com.webrestapi.testcase.TC001_POSTnewdetailsTest@436bc36]" started-at="2023-01-22T23:32:27 IST" name="checkServer" finished-at="2023-01-22T23:32:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+      </class> <!-- com.webrestapi.testcase.TC001_POSTnewdetailsTest -->
+      <class name="com.webrestapi.testcase.TC005_GETauthdetailsTest">
+        <test-method signature="GETAuthLoginTest(java.lang.String)[pri:1, instance:com.webrestapi.testcase.TC005_GETauthdetailsTest@5d8bafa9]" started-at="2023-01-22T23:32:48 IST" name="GETAuthLoginTest" data-provider="data" finished-at="2023-01-22T23:32:54 IST" duration-ms="6791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123,Ravi,ravi@gmail.com,12345,9876543213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GETAuthLoginTest -->
+        <test-method signature="checkStatusCode()[pri:3, instance:com.webrestapi.testcase.TC005_GETauthdetailsTest@5d8bafa9]" started-at="2023-01-22T23:32:54 IST" name="checkStatusCode" finished-at="2023-01-22T23:32:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseTime()[pri:4, instance:com.webrestapi.testcase.TC005_GETauthdetailsTest@5d8bafa9]" started-at="2023-01-22T23:32:54 IST" name="checkResponseTime" finished-at="2023-01-22T23:32:54 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusLine()[pri:5, instance:com.webrestapi.testcase.TC005_GETauthdetailsTest@5d8bafa9]" started-at="2023-01-22T23:32:54 IST" name="checkStatusLine" finished-at="2023-01-22T23:32:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkContentType()[pri:6, instance:com.webrestapi.testcase.TC005_GETauthdetailsTest@5d8bafa9]" started-at="2023-01-22T23:32:54 IST" name="checkContentType" finished-at="2023-01-22T23:32:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServer()[pri:7, instance:com.webrestapi.testcase.TC005_GETauthdetailsTest@5d8bafa9]" started-at="2023-01-22T23:32:54 IST" name="checkServer" finished-at="2023-01-22T23:32:55 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+      </class> <!-- com.webrestapi.testcase.TC005_GETauthdetailsTest -->
+    </test> <!-- Datatest -->
+  </suite> <!-- RestApi -->
+</testng-results>

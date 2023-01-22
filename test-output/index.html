@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RestApi" class="navigator-link">
+              <span class="suite-name border-failed">RestApi</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RestApi" class="navigator-link ">
+                    <span>C:\Users\User\eclipse-workspace\WebRestApi\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RestApi" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RestApi" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RestApi" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RestApi" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RestApi" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RestApi" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">51 methods, 1 failed,   50 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RestApi" class="hide-methods failed suite-RestApi"> (hide)</a> <!-- hide-methods failed suite-RestApi -->
+                      <a href="#" panel-name="suite-RestApi" class="show-methods failed suite-RestApi"> (show)</a> <!-- show-methods failed suite-RestApi -->
+                    </span>
+                    <div class="method-list-content failed suite-RestApi">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC008_GETsoldTest" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RestApi -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RestApi" class="hide-methods passed suite-RestApi"> (hide)</a> <!-- hide-methods passed suite-RestApi -->
+                      <a href="#" panel-name="suite-RestApi" class="show-methods passed suite-RestApi"> (show)</a> <!-- show-methods passed suite-RestApi -->
+                    </span>
+                    <div class="method-list-content passed suite-RestApi">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC004_DELETEdetailsTest" class="method navigator-link" hash-for-method="DELETEDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)">DELETEDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC005_GETauthdetailsTest" class="method navigator-link" hash-for-method="GETAuthLoginTest(123,Ravi,ravi@gmail.com,12345,9876543213)">GETAuthLoginTest(123,Ravi,ravi@gmail.com,12345,9876543213)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC007_GETavailTest" class="method navigator-link" hash-for-method="GETAvailableTest">GETAvailableTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC002_GETdetailsTest" class="method navigator-link" hash-for-method="GETDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213)">GETDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC006_GETpendTest" class="method navigator-link" hash-for-method="GETPendingTest">GETPendingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC008_GETsoldTest" class="method navigator-link" hash-for-method="GETSoldTest">GETSoldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC001_POSTnewdetailsTest" class="method navigator-link" hash-for-method="POSTDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213)">POSTDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC003_PUTdetailsTest" class="method navigator-link" hash-for-method="PUTDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)">PUTDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC001_POSTnewdetailsTest" class="method navigator-link" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC006_GETpendTest" class="method navigator-link" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC004_DELETEdetailsTest" class="method navigator-link" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC003_PUTdetailsTest" class="method navigator-link" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC005_GETauthdetailsTest" class="method navigator-link" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC008_GETsoldTest" class="method navigator-link" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC002_GETdetailsTest" class="method navigator-link" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC007_GETavailTest" class="method navigator-link" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC006_GETpendTest" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC007_GETavailTest" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC005_GETauthdetailsTest" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC002_GETdetailsTest" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC001_POSTnewdetailsTest" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC007_GETavailTest" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC004_DELETEdetailsTest" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC008_GETsoldTest" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC006_GETpendTest" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC003_PUTdetailsTest" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC001_POSTnewdetailsTest" class="method navigator-link" hash-for-method="checkServer">checkServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC006_GETpendTest" class="method navigator-link" hash-for-method="checkServer">checkServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC003_PUTdetailsTest" class="method navigator-link" hash-for-method="checkServer">checkServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC002_GETdetailsTest" class="method navigator-link" hash-for-method="checkServer">checkServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC005_GETauthdetailsTest" class="method navigator-link" hash-for-method="checkServer">checkServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC007_GETavailTest" class="method navigator-link" hash-for-method="checkServer">checkServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC008_GETsoldTest" class="method navigator-link" hash-for-method="checkServer">checkServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC004_DELETEdetailsTest" class="method navigator-link" hash-for-method="checkServer">checkServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC006_GETpendTest" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC005_GETauthdetailsTest" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC003_PUTdetailsTest" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC008_GETsoldTest" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC002_GETdetailsTest" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC001_POSTnewdetailsTest" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC004_DELETEdetailsTest" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC007_GETavailTest" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC007_GETavailTest" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC008_GETsoldTest" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC001_POSTnewdetailsTest" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC002_GETdetailsTest" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC003_PUTdetailsTest" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC005_GETauthdetailsTest" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC004_DELETEdetailsTest" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestApi" title="com.webrestapi.testcase.TC006_GETpendTest" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RestApi -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RestApi" class="panel RestApi">
+          <div class="suite-RestApi-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.webrestapi.testcase.TC008_GETsoldTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.webrestapi.testcase.TC008_GETsoldTest.checkResponseBody(TC008_GETsoldTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestApi-class-failed -->
+          <div class="suite-RestApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webrestapi.testcase.TC003_PUTdetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PUTDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)">
+                  </a> <!-- PUTDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210) -->
+                  <span class="method-name">PUTDetailsTest</span>
+                  <span class="parameters">(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkServer">
+                  </a> <!-- checkServer -->
+                  <span class="method-name">checkServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestApi-class-passed -->
+          <div class="suite-RestApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webrestapi.testcase.TC001_POSTnewdetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="POSTDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213)">
+                  </a> <!-- POSTDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213) -->
+                  <span class="method-name">POSTDetailsTest</span>
+                  <span class="parameters">(123,Ravi,ravi@gmail.com,12345,9876543213)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkServer">
+                  </a> <!-- checkServer -->
+                  <span class="method-name">checkServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestApi-class-passed -->
+          <div class="suite-RestApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webrestapi.testcase.TC008_GETsoldTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GETSoldTest">
+                  </a> <!-- GETSoldTest -->
+                  <span class="method-name">GETSoldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkServer">
+                  </a> <!-- checkServer -->
+                  <span class="method-name">checkServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestApi-class-passed -->
+          <div class="suite-RestApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webrestapi.testcase.TC002_GETdetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GETDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213)">
+                  </a> <!-- GETDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213) -->
+                  <span class="method-name">GETDetailsTest</span>
+                  <span class="parameters">(123,Ravi,ravi@gmail.com,12345,9876543213)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkServer">
+                  </a> <!-- checkServer -->
+                  <span class="method-name">checkServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestApi-class-passed -->
+          <div class="suite-RestApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webrestapi.testcase.TC007_GETavailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GETAvailableTest">
+                  </a> <!-- GETAvailableTest -->
+                  <span class="method-name">GETAvailableTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkServer">
+                  </a> <!-- checkServer -->
+                  <span class="method-name">checkServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestApi-class-passed -->
+          <div class="suite-RestApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webrestapi.testcase.TC006_GETpendTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GETPendingTest">
+                  </a> <!-- GETPendingTest -->
+                  <span class="method-name">GETPendingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkServer">
+                  </a> <!-- checkServer -->
+                  <span class="method-name">checkServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestApi-class-passed -->
+          <div class="suite-RestApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webrestapi.testcase.TC005_GETauthdetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GETAuthLoginTest(123,Ravi,ravi@gmail.com,12345,9876543213)">
+                  </a> <!-- GETAuthLoginTest(123,Ravi,ravi@gmail.com,12345,9876543213) -->
+                  <span class="method-name">GETAuthLoginTest</span>
+                  <span class="parameters">(123,Ravi,ravi@gmail.com,12345,9876543213)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkServer">
+                  </a> <!-- checkServer -->
+                  <span class="method-name">checkServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestApi-class-passed -->
+          <div class="suite-RestApi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webrestapi.testcase.TC004_DELETEdetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DELETEDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)">
+                  </a> <!-- DELETEDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210) -->
+                  <span class="method-name">DELETEDetailsTest</span>
+                  <span class="parameters">(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkServer">
+                  </a> <!-- checkServer -->
+                  <span class="method-name">checkServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestApi-class-passed -->
+        </div> <!-- panel RestApi -->
+        <div panel-name="test-xml-RestApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\eclipse-workspace\WebRestApi\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RestApi&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.webrestapi.utility.ExtentListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Datatest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.webrestapi.testcase.TC001_POSTnewdetailsTest&quot;/&gt;
+      &lt;class name=&quot;com.webrestapi.testcase.TC002_GETdetailsTest&quot;/&gt;
+      &lt;class name=&quot;com.webrestapi.testcase.TC003_PUTdetailsTest&quot;/&gt;
+      &lt;class name=&quot;com.webrestapi.testcase.TC004_DELETEdetailsTest&quot;/&gt;
+      &lt;class name=&quot;com.webrestapi.testcase.TC005_GETauthdetailsTest&quot;/&gt;
+      &lt;class name=&quot;com.webrestapi.testcase.TC006_GETpendTest&quot;/&gt;
+      &lt;class name=&quot;com.webrestapi.testcase.TC007_GETavailTest&quot;/&gt;
+      &lt;class name=&quot;com.webrestapi.testcase.TC008_GETsoldTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Datatest --&gt;
+&lt;/suite&gt; &lt;!-- RestApi --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RestApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RestApi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Datatest (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RestApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RestApi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RestApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RestApi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RestApi');
+function tableData_RestApi() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(51);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'POSTDetailsTest')
+data.setCell(0, 2, 'com.webrestapi.testcase.TC001_POSTnewdetailsTest')
+data.setCell(0, 3, 14921);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'GETAvailableTest')
+data.setCell(1, 2, 'com.webrestapi.testcase.TC007_GETavailTest')
+data.setCell(1, 3, 6997);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DELETEDetailsTest')
+data.setCell(2, 2, 'com.webrestapi.testcase.TC004_DELETEdetailsTest')
+data.setCell(2, 3, 6799);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'GETAuthLoginTest')
+data.setCell(3, 2, 'com.webrestapi.testcase.TC005_GETauthdetailsTest')
+data.setCell(3, 3, 6791);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'GETDetailsTest')
+data.setCell(4, 2, 'com.webrestapi.testcase.TC002_GETdetailsTest')
+data.setCell(4, 3, 6790);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'GETSoldTest')
+data.setCell(5, 2, 'com.webrestapi.testcase.TC008_GETsoldTest')
+data.setCell(5, 3, 6748);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'PUTDetailsTest')
+data.setCell(6, 2, 'com.webrestapi.testcase.TC003_PUTdetailsTest')
+data.setCell(6, 3, 6738);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'GETPendingTest')
+data.setCell(7, 2, 'com.webrestapi.testcase.TC006_GETpendTest')
+data.setCell(7, 3, 6612);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkResponseBody')
+data.setCell(8, 2, 'com.webrestapi.testcase.TC008_GETsoldTest')
+data.setCell(8, 3, 98);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkResponseBody')
+data.setCell(9, 2, 'com.webrestapi.testcase.TC007_GETavailTest')
+data.setCell(9, 3, 81);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkResponseTime')
+data.setCell(10, 2, 'com.webrestapi.testcase.TC001_POSTnewdetailsTest')
+data.setCell(10, 3, 27);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkServer')
+data.setCell(11, 2, 'com.webrestapi.testcase.TC005_GETauthdetailsTest')
+data.setCell(11, 3, 17);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkStatusLine')
+data.setCell(12, 2, 'com.webrestapi.testcase.TC006_GETpendTest')
+data.setCell(12, 3, 13);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkStatusCode')
+data.setCell(13, 2, 'com.webrestapi.testcase.TC003_PUTdetailsTest')
+data.setCell(13, 3, 12);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkContentType')
+data.setCell(14, 2, 'com.webrestapi.testcase.TC004_DELETEdetailsTest')
+data.setCell(14, 3, 12);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkStatusLine')
+data.setCell(15, 2, 'com.webrestapi.testcase.TC002_GETdetailsTest')
+data.setCell(15, 3, 11);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkServer')
+data.setCell(16, 2, 'com.webrestapi.testcase.TC002_GETdetailsTest')
+data.setCell(16, 3, 10);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkResponseTime')
+data.setCell(17, 2, 'com.webrestapi.testcase.TC003_PUTdetailsTest')
+data.setCell(17, 3, 10);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkServer')
+data.setCell(18, 2, 'com.webrestapi.testcase.TC004_DELETEdetailsTest')
+data.setCell(18, 3, 10);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkResponseTime')
+data.setCell(19, 2, 'com.webrestapi.testcase.TC005_GETauthdetailsTest')
+data.setCell(19, 3, 9);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkResponseTime')
+data.setCell(20, 2, 'com.webrestapi.testcase.TC002_GETdetailsTest')
+data.setCell(20, 3, 9);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkServer')
+data.setCell(21, 2, 'com.webrestapi.testcase.TC007_GETavailTest')
+data.setCell(21, 3, 9);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkServer')
+data.setCell(22, 2, 'com.webrestapi.testcase.TC001_POSTnewdetailsTest')
+data.setCell(22, 3, 8);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkStatusCode')
+data.setCell(23, 2, 'com.webrestapi.testcase.TC006_GETpendTest')
+data.setCell(23, 3, 8);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkContentType')
+data.setCell(24, 2, 'com.webrestapi.testcase.TC003_PUTdetailsTest')
+data.setCell(24, 3, 8);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'checkContentType')
+data.setCell(25, 2, 'com.webrestapi.testcase.TC005_GETauthdetailsTest')
+data.setCell(25, 3, 8);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkServer')
+data.setCell(26, 2, 'com.webrestapi.testcase.TC003_PUTdetailsTest')
+data.setCell(26, 3, 8);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkStatusCode')
+data.setCell(27, 2, 'com.webrestapi.testcase.TC002_GETdetailsTest')
+data.setCell(27, 3, 8);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkResponseTime')
+data.setCell(28, 2, 'com.webrestapi.testcase.TC004_DELETEdetailsTest')
+data.setCell(28, 3, 8);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'checkStatusLine')
+data.setCell(29, 2, 'com.webrestapi.testcase.TC005_GETauthdetailsTest')
+data.setCell(29, 3, 8);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'checkContentType')
+data.setCell(30, 2, 'com.webrestapi.testcase.TC002_GETdetailsTest')
+data.setCell(30, 3, 8);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkServer')
+data.setCell(31, 2, 'com.webrestapi.testcase.TC006_GETpendTest')
+data.setCell(31, 3, 7);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'checkStatusLine')
+data.setCell(32, 2, 'com.webrestapi.testcase.TC003_PUTdetailsTest')
+data.setCell(32, 3, 7);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'checkContentType')
+data.setCell(33, 2, 'com.webrestapi.testcase.TC001_POSTnewdetailsTest')
+data.setCell(33, 3, 6);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'checkStatusCode')
+data.setCell(34, 2, 'com.webrestapi.testcase.TC005_GETauthdetailsTest')
+data.setCell(34, 3, 6);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'checkStatusLine')
+data.setCell(35, 2, 'com.webrestapi.testcase.TC001_POSTnewdetailsTest')
+data.setCell(35, 3, 6);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'checkStatusCode')
+data.setCell(36, 2, 'com.webrestapi.testcase.TC001_POSTnewdetailsTest')
+data.setCell(36, 3, 6);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkStatusCode')
+data.setCell(37, 2, 'com.webrestapi.testcase.TC004_DELETEdetailsTest')
+data.setCell(37, 3, 6);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'checkStatusCode')
+data.setCell(38, 2, 'com.webrestapi.testcase.TC007_GETavailTest')
+data.setCell(38, 3, 6);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'checkContentType')
+data.setCell(39, 2, 'com.webrestapi.testcase.TC008_GETsoldTest')
+data.setCell(39, 3, 5);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'checkStatusLine')
+data.setCell(40, 2, 'com.webrestapi.testcase.TC004_DELETEdetailsTest')
+data.setCell(40, 3, 5);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'checkResponseTime')
+data.setCell(41, 2, 'com.webrestapi.testcase.TC008_GETsoldTest')
+data.setCell(41, 3, 5);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'checkResponseTime')
+data.setCell(42, 2, 'com.webrestapi.testcase.TC006_GETpendTest')
+data.setCell(42, 3, 5);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'checkResponseBody')
+data.setCell(43, 2, 'com.webrestapi.testcase.TC006_GETpendTest')
+data.setCell(43, 3, 4);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'checkContentType')
+data.setCell(44, 2, 'com.webrestapi.testcase.TC006_GETpendTest')
+data.setCell(44, 3, 4);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'checkStatusLine')
+data.setCell(45, 2, 'com.webrestapi.testcase.TC007_GETavailTest')
+data.setCell(45, 3, 4);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'checkStatusLine')
+data.setCell(46, 2, 'com.webrestapi.testcase.TC008_GETsoldTest')
+data.setCell(46, 3, 4);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'checkResponseTime')
+data.setCell(47, 2, 'com.webrestapi.testcase.TC007_GETavailTest')
+data.setCell(47, 3, 4);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'checkServer')
+data.setCell(48, 2, 'com.webrestapi.testcase.TC008_GETsoldTest')
+data.setCell(48, 3, 4);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'checkContentType')
+data.setCell(49, 2, 'com.webrestapi.testcase.TC007_GETavailTest')
+data.setCell(49, 3, 4);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'checkStatusCode')
+data.setCell(50, 2, 'com.webrestapi.testcase.TC008_GETsoldTest')
+data.setCell(50, 3, 3);
+window.suiteTableData['RestApi']= { tableData: data, tableDiv: 'times-div-RestApi'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-RestApi">
+              </div> <!-- times-div-RestApi -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RestApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RestApi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RestApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">20 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.webrestapi.testcase.TC003_PUTdetailsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkContentLength</span>
+                <br/>
+                <span class="ignored-method-name">checkContentEncoding</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.webrestapi.testcase.TC001_POSTnewdetailsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkContentEncoding</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.webrestapi.testcase.TC008_GETsoldTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkContentEncoding</span>
+                <br/>
+                <span class="ignored-method-name">checkContentLength</span>
+                <br/>
+                <span class="ignored-method-name">checkCookie</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.webrestapi.testcase.TC002_GETdetailsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkCookie</span>
+                <br/>
+                <span class="ignored-method-name">checkContentLength</span>
+                <br/>
+                <span class="ignored-method-name">checkContentEncoding</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.webrestapi.testcase.TC007_GETavailTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkCookie</span>
+                <br/>
+                <span class="ignored-method-name">checkContentEncoding</span>
+                <br/>
+                <span class="ignored-method-name">checkContentLength</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.webrestapi.testcase.TC006_GETpendTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkCookie</span>
+                <br/>
+                <span class="ignored-method-name">checkContentLength</span>
+                <br/>
+                <span class="ignored-method-name">checkContentEncoding</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.webrestapi.testcase.TC005_GETauthdetailsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkContentEncoding</span>
+                <br/>
+                <span class="ignored-method-name">checkCookie</span>
+                <br/>
+                <span class="ignored-method-name">checkContentLength</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.webrestapi.testcase.TC004_DELETEdetailsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkContentEncoding</span>
+                <br/>
+                <span class="ignored-method-name">checkContentLength</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RestApi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webrestapi.testcase.TC001_POSTnewdetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">POSTDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">14979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">14990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">15022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">15034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkServer</span>
+                <span class="method-start">15045 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webrestapi.testcase.TC002_GETdetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GETDetailsTest(123,Ravi,ravi@gmail.com,12345,9876543213)</span>
+                <span class="method-start">15064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">21865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">21882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">21900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">21921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkServer</span>
+                <span class="method-start">21937 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webrestapi.testcase.TC003_PUTdetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">PUTDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)</span>
+                <span class="method-start">21964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">28720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">28738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">28753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">28769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkServer</span>
+                <span class="method-start">28783 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webrestapi.testcase.TC004_DELETEdetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DELETEDetailsTest(123,Ravi,Akshay,ravi@gmail.com,12345,9785634210)</span>
+                <span class="method-start">28800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">35627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">35643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">35657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">35667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkServer</span>
+                <span class="method-start">35690 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webrestapi.testcase.TC005_GETauthdetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GETAuthLoginTest(123,Ravi,ravi@gmail.com,12345,9876543213)</span>
+                <span class="method-start">35720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">42527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">42540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">42565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">42585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkServer</span>
+                <span class="method-start">42598 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webrestapi.testcase.TC006_GETpendTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GETPendingTest</span>
+                <span class="method-start">42621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseBody</span>
+                <span class="method-start">49241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">49272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">49288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">49300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">49318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkServer</span>
+                <span class="method-start">49325 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webrestapi.testcase.TC007_GETavailTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GETAvailableTest</span>
+                <span class="method-start">49335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseBody</span>
+                <span class="method-start">56345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">56431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">56442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">56450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">56456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkServer</span>
+                <span class="method-start">56463 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webrestapi.testcase.TC008_GETsoldTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GETSoldTest</span>
+                <span class="method-start">56476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkResponseBody</span>
+                <span class="method-start">63231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">63368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">63374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">63383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">63390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkServer</span>
+                <span class="method-start">63398 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

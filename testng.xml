@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestApi">
+	<listeners>
+		<listener class-name="com.webrestapi.utility.ExtentListener"></listener>
+	</listeners>
+	<test thread-count="5" name="Datatest">
+		<classes>
+			<class name="com.webrestapi.testcase.TC001_POSTnewdetailsTest" />
+			<class name="com.webrestapi.testcase.TC002_GETdetailsTest" />
+			<class name="com.webrestapi.testcase.TC003_PUTdetailsTest" />
+			<class name="com.webrestapi.testcase.TC004_DELETEdetailsTest" />
+			<class name="com.webrestapi.testcase.TC005_GETauthdetailsTest" />
+			<class name="com.webrestapi.testcase.TC006_GETpendTest" />
+			<class name="com.webrestapi.testcase.TC007_GETavailTest" />
+			<class name="com.webrestapi.testcase.TC008_GETsoldTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
